@@ -1,0 +1,16 @@
+{
+  "name": "bobble1118-plugins",
+  "owner": {
+    "name": "bobble1118"
+  },
+  "metadata": {
+    "description": "bobble1118 的 Claude Code plugins：遠端 SSH 操作等工具。"
+  },
+  "plugins": [
+    {
+      "name": "remote-ssh",
+      "source": "./",
+      "description": "透過 Tailscale + SSH 操作遠端電腦，附互動式主機設定指令。"
+    }
+  ]
+}

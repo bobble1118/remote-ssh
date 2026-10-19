@@ -1,0 +1,12 @@
+{
+  "name": "remote-ssh",
+  "version": "0.1.0",
+  "description": "透過 Tailscale + SSH 在遠端電腦上執行指令、讀寫檔案、檢查狀態；附互動式主機設定指令。",
+  "author": {
+    "name": "bobble1118"
+  },
+  "homepage": "https://github.com/bobble1118/remote-ssh",
+  "repository": "https://github.com/bobble1118/remote-ssh",
+  "license": "MIT",
+  "keywords": ["ssh", "tailscale", "remote", "devops"]
+}

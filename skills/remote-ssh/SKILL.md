@@ -36,7 +36,8 @@ description: 透過 Tailscale + SSH 在指定的遠端電腦上執行指令、�
 
 ## 初次設定（一次性）
 
-在本機的 `~/.ssh/config` 加入主機設定（範本見 `ssh-config.example`）：
+使用者要新增主機時，執行 `/remote-ssh:setup`，會以問答方式完成設定並測試連線。
+若要手動設定，可在本機的 `~/.ssh/config` 加入以下內容（範本見 `ssh-config.example`）：
 
 ```
 Host mypc
