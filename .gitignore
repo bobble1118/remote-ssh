@@ -1,0 +1,9 @@
+# 個人設定與敏感資料，不要推上去
+ssh-config
+*.pem
+*.key
+id_*
+*.local.md
+personal/
+local/
+.env

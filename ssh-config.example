@@ -1,0 +1,11 @@
+# 範本：複製到 ~/.ssh/config 後，把 <...> 換成自己的值。
+# 此檔只是範本，請勿放入真實的 IP、帳號或金鑰路徑。
+
+Host mypc
+    HostName <tailscale 主機名稱或 100.x.y.z>
+    User <遠端使用者>
+    # 金鑰驗證（與 Tailscale SSH 二選一）
+    # IdentityFile ~/.ssh/id_ed25519
+    # IdentitiesOnly yes
+
+# 若要設定多台，依樣複製一段 Host 區塊即可。
